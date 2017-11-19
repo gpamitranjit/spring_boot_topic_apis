@@ -6,7 +6,6 @@
 	<groupId>com.amdocs</groupId>
 	<artifactId>spring_boot_topic_apis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
 	<name>spring_boot_topic_apis</name>
 	<description>spring boot project that operates on topics</description>
@@ -38,6 +37,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+		<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>			
+			
+				
 		<!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
 		<dependency>
 			<groupId>org.apache.derby</groupId>
